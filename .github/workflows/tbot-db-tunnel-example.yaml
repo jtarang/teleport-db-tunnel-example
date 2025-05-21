@@ -35,7 +35,7 @@ jobs:
           cat <<EOF > /tmp/bot-config.yaml
           version: v2
           onboarding:
-            join_method: token
+            join_method: github
             token: ${{ secrets.TELEPORT_BOT_TOKEN }}
           storage:
             type: directory
