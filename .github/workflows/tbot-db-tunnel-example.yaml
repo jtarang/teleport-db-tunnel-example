@@ -43,7 +43,7 @@ jobs:
             symlinks: try-secure
             acls: "off"
           services:
-            - type: postgres-database-tunnel
+            - type: database-tunnel
               listen: tcp://127.0.0.1:5432
               service: dev-psql-rds
               database: transactionsDb
