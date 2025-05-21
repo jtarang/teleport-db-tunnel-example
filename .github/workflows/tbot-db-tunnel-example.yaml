@@ -39,7 +39,7 @@ jobs:
             token: ${{ secrets.TELEPORT_BOT_TOKEN }}
           storage:
             type: directory
-            path: /var/lib/teleport/bot
+            path: /tmp/tbot
             symlinks: try-secure
             acls: "off"
           services:
